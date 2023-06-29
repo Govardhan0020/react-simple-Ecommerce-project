@@ -31,7 +31,7 @@ const SignUp = () => {
       setData({
         firstname: '',
         lastname: '',
-        name: '',
+        age: '',
         email: '',
         password: '',
       });
