@@ -11,7 +11,7 @@ const Login = () => {
 
   const localdata = JSON.parse(localStorage.getItem('userdetails')) || [];
 
-  console.log(localdata, 'locldata1616');
+  console.log(localdata, '1616');
 
   const changepage = () => {
     navigate('/signup');

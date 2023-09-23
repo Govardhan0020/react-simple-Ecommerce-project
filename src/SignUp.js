@@ -19,7 +19,7 @@ const SignUp = () => {
     setData({ ...data, [e.target.name]: e.target.value });
   };
   const locldata = JSON.parse(localStorage.getItem('userdetails')) || [];
-
+       console.log(locldata, "locdata")
   const name = data.firstname;
   console.log(name, '2525');
   const SubmitHandler = (e) => {
